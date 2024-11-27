@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        //Question-1
+       var num1=+prompt("enter number:");
+var num2=""
+var num;
+function reverse()
+{
+   num=num1.toString()
+   for(i=num.length-1;i>=0;i--)
+   {
+      num2+=num[i];
+   }
+
+}
+reverse();
+if(num1==num2)
+{
+    alert("palindrome");
+}
+else
+{
+   alert("not a palindrome");
+}
+
+
+//Question-2
+var num1=+prompt("Enter num1:");
+cal();
+function cal()
+{
+if(num1%2==0)
+{
+  alert("even")
+}
+else
+{
+  alert("odd")
+}
+}
+
+//Question-3 
+ var a=+prompt("enter a");
+var b=+prompt("enter b");
+var c=+prompt("enter c");
+if(a>b && a>c)
+{
+  alert(`${a} is greater`)
+}
+ else if(b>a && b>c)
+  {
+    alert(`${b} is greater`)
+  }
+  else
+  {
+      alert(`${c} is greater`)
+  }
+
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
